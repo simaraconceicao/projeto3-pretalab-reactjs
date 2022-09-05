@@ -3,6 +3,7 @@ import { BsArrowReturnRight } from 'react-icons/bs'
 import imgProject from '../../assets/project.svg'
 import Header from '../../components/Header/Header'
 import Others from '../Others/Others'
+import { Head } from '../../Head'
 
 const list = [
   {
@@ -42,6 +43,7 @@ const list = [
 function Projects() {
   return(
     <div>
+      <Head title="Portfólio" />
       <Header image={imgProject}>Meus projetos</Header>
       <div className="cartao-container">
        {list.map(repo => {

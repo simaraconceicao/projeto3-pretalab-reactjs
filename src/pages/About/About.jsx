@@ -1,10 +1,12 @@
 import Header from '../../components/Header/Header'
 import imgAbout from '../../assets/about.svg'
 import './about.css'
+import { Head } from '../../Head'
 
 function About() {
   return(
     <>
+      <Head title="Sobre" />
       <Header image={imgAbout}>Sobre mim</Header>
       <div className="about">
         <img src="https://media.giphy.com/media/efhcZv18NpQDyRsaYa/giphy.gif" alt="meu gif" />
