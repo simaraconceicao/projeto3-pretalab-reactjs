@@ -3,6 +3,7 @@ import { FiTrash2, FiPlus } from 'react-icons/fi'
 
 import imgList from '../../assets/list.svg'
 import Header from '../../components/Header/Header'
+import { Head } from '../../Head'
 import './list.css'
 
 
@@ -60,6 +61,7 @@ const List = () => {
 
   return (
     <>
+      <Head title="Comentários" />
       <Header image={imgList}>Dicas, feedbacks, mensagens de paz</Header>
       <section className="list">
         <header>

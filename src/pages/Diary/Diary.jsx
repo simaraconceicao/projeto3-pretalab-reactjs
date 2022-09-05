@@ -1,13 +1,15 @@
 import './diary.css'
 import imgDiary from '../../assets/diary.svg'
 import Header from '../../components/Header/Header'
+import { Head } from '../../Head'
 
 
 function Diary() {
   return(
     <div>
+      <Head title="Diário" />
       <Header image={imgDiary}>Meu Diário</Header>
-      <div >
+      <div>
           <h1 className="skills">4 aprendizados na PretaLab</h1>
 
           <div className="cartoes-container">
